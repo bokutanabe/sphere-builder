@@ -1,1 +1,1 @@
-kill @e[name=sb-navigator,sort=nearest,limit=1,distance=..5]
+execute if entity @e[name=sb-pos-navi,sort=nearest,limit=1,distance=..5] run function sphere-builder:navi/kill
