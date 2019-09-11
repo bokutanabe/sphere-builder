@@ -1,0 +1,1 @@
+kill @e[name=sb-navigator,sort=nearest,limit=1,distance=..5]
