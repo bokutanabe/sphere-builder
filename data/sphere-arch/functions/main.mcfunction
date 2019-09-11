@@ -1,1 +1,0 @@
-execute at @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"\"sphere-build-navi\""}}}}] run say ok
