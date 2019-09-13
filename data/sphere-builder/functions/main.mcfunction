@@ -4,4 +4,4 @@ execute at @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:
 execute at @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"\"sphere-builder\""}}}}] run function sphere-builder:builder/controller
 execute at @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"\"sphere-builder\""}}}}] run function sphere-builder:builder/closer
 
-execute at @e[tag=sb-navigator,tag=sb-builder] run tp @e[sort=nearest,limit=1] ~ ~ ~ ~2 ~
+execute at @e[tag=sb-navigator,tag=sb-builder] run function sphere-builder:builder/operator
