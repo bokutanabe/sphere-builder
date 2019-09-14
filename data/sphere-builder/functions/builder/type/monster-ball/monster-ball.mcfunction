@@ -15,4 +15,4 @@ execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run fill ~-2 ~-4 
 execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run fill ~-2 ~0 ~20 ~2 ~-1 ~20 white_concrete
 execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run fill ~-1 ~1 ~20 ~1 ~1 ~20 white_concrete
 execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run fill ~-1 ~-2 ~20 ~1 ~-2 ~20 white_concrete
-execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run kill @e[name=sb-pokemon,sort=nearest,limit=1,distance=..1]
+execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run kill @e[name=sb-monster-ball,sort=nearest,limit=1,distance=..1]
