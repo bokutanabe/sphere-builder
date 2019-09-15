@@ -6,3 +6,6 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-tnt] run function sphere-b
 
 # ダイヤモンド
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-diamond] run function sphere-builder:builder/type/diamond/parallel
+
+# 水
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-water] run function sphere-builder:builder/type/water/parallel
