@@ -10,7 +10,11 @@ execute positioned ^ ^1 ^3 align xyz run tp @e[name=sb-pos-navi,sort=nearest,lim
 # ナビの種類を更新
 execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=1..1,sb-change-flag=1..}] run function sphere-builder:navi/type/monster-ball
 execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=2..2,sb-change-flag=1..}] run function sphere-builder:navi/type/tnt
-execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=3..,sb-change-flag=1..}] run function sphere-builder:navi/type/pos-navi
+execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=3..3,sb-change-flag=1..}] run function sphere-builder:navi/type/diamond
+execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=4..4,sb-change-flag=1..}] run function sphere-builder:navi/type/water
+execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=5..5,sb-change-flag=1..}] run function sphere-builder:navi/type/lava
+execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=6..6,sb-change-flag=1..}] run function sphere-builder:navi/type/iron-bars
+execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=7..,sb-change-flag=1..}] run function sphere-builder:navi/type/pos-navi
 
 # 右クリックのフラグ
 execute if entity @a[sort=nearest,limit=1,scores={sb-change-flag=1..}] run scoreboard players set @a[sort=nearest,limit=1] sb-change-flag 0
