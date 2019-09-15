@@ -9,3 +9,6 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-diamond] run function sphe
 
 # 水
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-water] run function sphere-builder:builder/type/water/parallel
+
+# マグマ
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-lava] run function sphere-builder:builder/type/lava/parallel
