@@ -18,3 +18,9 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-iron-bars] run function sp
 
 # ディスペンサー
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-dispenser] run function sphere-builder:builder/type/dispenser/parallel
+
+# ピストン
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-piston] run function sphere-builder:builder/type/piston/parallel
+
+# レッドストーンランプ
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-redstone-lamp] run function sphere-builder:builder/type/redstone-lamp/parallel
