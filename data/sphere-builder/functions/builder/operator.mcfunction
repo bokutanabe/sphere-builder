@@ -15,3 +15,6 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-lava] run function sphere-
 
 # 鉄格子
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-iron-bars] run function sphere-builder:builder/type/iron-bars/parallel
+
+# ディスペンサー
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-dispenser] run function sphere-builder:builder/type/dispenser/parallel
