@@ -5,4 +5,6 @@ tp @e[sort=nearest,limit=1] ~ ~ ~ ~ ~-1
 execute at @e[x_rotation=-90,sort=nearest,limit=1,distance=..1] run tp @e[sort=nearest,limit=1] ~ ~ ~ ~1 ~
 execute at @e[x_rotation=-90,sort=nearest,limit=1,distance=..1] run tp @e[sort=nearest,limit=1] ~ ~ ~ ~ 90
 
+execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run setblock ~ ~19 ~ minecraft:command_block{Command:"function sphere-builder:device/lava/replace"}
+execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run setblock ~ ~20 ~ minecraft:lever[face=floor]
 execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run kill @e[name=sb-lava,sort=nearest,limit=1,distance=..1]
