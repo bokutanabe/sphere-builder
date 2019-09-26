@@ -24,3 +24,6 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-piston] run function spher
 
 # レッドストーンランプ
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-redstone-lamp] run function sphere-builder:builder/type/redstone-lamp/parallel
+
+# トピアリー
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-topiary] run function sphere-builder:builder/type/topiary/parallel
