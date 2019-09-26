@@ -27,3 +27,6 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-redstone-lamp] run functio
 
 # トピアリー
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-topiary] run function sphere-builder:builder/type/topiary/parallel
+
+# 小島
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-island] run function sphere-builder:builder/type/island/parallel
