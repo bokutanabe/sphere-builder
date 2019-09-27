@@ -13,8 +13,8 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-water] run function sphere
 # マグマ
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-lava] run function sphere-builder:builder/type/lava/parallel
 
-# 鉄格子
-execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-iron-bars] run function sphere-builder:builder/type/iron-bars/parallel
+# エンドロッド
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-end-rod] run function sphere-builder:builder/type/end-rod/parallel
 
 # ディスペンサー
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-dispenser] run function sphere-builder:builder/type/dispenser/parallel
