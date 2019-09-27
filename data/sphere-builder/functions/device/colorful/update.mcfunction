@@ -1,0 +1,16 @@
+function sphere-builder:device/colorful/white
+function sphere-builder:device/colorful/orange
+function sphere-builder:device/colorful/magenta
+function sphere-builder:device/colorful/light_blue
+function sphere-builder:device/colorful/yellow
+function sphere-builder:device/colorful/lime
+function sphere-builder:device/colorful/pink
+function sphere-builder:device/colorful/gray
+function sphere-builder:device/colorful/light_gray
+function sphere-builder:device/colorful/cyan
+function sphere-builder:device/colorful/purple
+function sphere-builder:device/colorful/blue
+function sphere-builder:device/colorful/brown
+function sphere-builder:device/colorful/green
+function sphere-builder:device/colorful/red
+function sphere-builder:device/colorful/black
