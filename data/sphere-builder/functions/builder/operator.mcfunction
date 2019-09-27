@@ -30,3 +30,6 @@ execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-topiary] run function sphe
 
 # 小島
 execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-island] run function sphere-builder:builder/type/island/parallel
+
+# カラフル
+execute at @e[tag=sb-navigator,tag=sb-builder,name=sb-colorful] run function sphere-builder:builder/type/colorful/parallel

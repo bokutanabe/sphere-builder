@@ -19,7 +19,8 @@ execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=8..8,sb-change-f
 execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=9..9,sb-change-flag=1..}] run function sphere-builder:navi/type/redstone-lamp
 execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=10..10,sb-change-flag=1..}] run function sphere-builder:navi/type/topiary
 execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=11..11,sb-change-flag=1..}] run function sphere-builder:navi/type/island
-execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=12..,sb-change-flag=1..}] run function sphere-builder:navi/type/pos-navi
+execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=12..12,sb-change-flag=1..}] run function sphere-builder:navi/type/colorful
+execute if entity @a[sort=nearest,limit=1,scores={sb-navi-index=13..,sb-change-flag=1..}] run function sphere-builder:navi/type/pos-navi
 
 # 右クリックのフラグ
 execute if entity @a[sort=nearest,limit=1,scores={sb-change-flag=1..}] run scoreboard players set @a[sort=nearest,limit=1] sb-change-flag 0
