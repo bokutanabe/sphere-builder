@@ -1,0 +1,2 @@
+execute positioned ~-2 ~-16 ~ run kill @e[name=sb-dispenser-controllerA,sort=nearest,limit=1,distance=..2]
+execute positioned ~-2 ~-16 ~ run kill @e[name=sb-dispenser-controllerB,sort=nearest,limit=1,distance=..2]
