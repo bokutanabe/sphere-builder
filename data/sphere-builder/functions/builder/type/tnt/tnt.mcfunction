@@ -4,4 +4,5 @@ tp @e[sort=nearest,limit=1] ~ ~ ~ ~ ~1
 execute at @e[x_rotation=90,sort=nearest,limit=1,distance=..1] run tp @e[sort=nearest,limit=1] ~ ~ ~ ~1 ~
 execute at @e[x_rotation=90,sort=nearest,limit=1,distance=..1] run tp @e[sort=nearest,limit=1] ~ ~ ~ ~ -90
 
+execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run setblock ~ ~20 ~ minecraft:lever[face=floor]
 execute at @e[y_rotation=-1,sort=nearest,limit=1,distance=..1] run kill @e[name=sb-tnt,sort=nearest,limit=1,distance=..1]
